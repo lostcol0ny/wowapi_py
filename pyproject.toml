@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "wowapi-py"
-version = "0.1.0"
+name = "wowapi_py"
+version = "1.0.0"
 description = ""
 authors = ["lostcol0ny <tobydillman@gmail.com>"]
 readme = "README.md"
