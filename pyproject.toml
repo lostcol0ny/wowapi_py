@@ -1,18 +1,19 @@
 [tool.poetry]
-name = "wowapi_py"
-version = "1.0.0"
-description = ""
+name = "wowapi-py"
+version = "0.1.0"
+description = "A Python library for the World of Warcraft API"
 authors = ["lostcol0ny <tobydillman@gmail.com>"]
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-requests = "^2.32.3"
 requests-oauthlib = "^2.0.0"
-aiohttp = "^3.10.1"
-oauthlib = "^3.2.2"
-sphinx = "^8.0.2"
-sphinxcontrib-napoleon = "^0.7"
+aiohttp = "^3.10.4"
+
+[tool.poetry.group.dev.dependencies]
+aiohttp = "^3.10.4"
+requests-oauthlib = "^2.0.0"
 
 [build-system]
 requires = ["poetry-core"]
