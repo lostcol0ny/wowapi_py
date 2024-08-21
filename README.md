@@ -1,0 +1,1 @@
+This is a Python wrapper library for the World of Warcraft API. Mostly meant to be used by me for my own projects, so I wouldn't use this for something you need to be consistent.
